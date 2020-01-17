@@ -22,7 +22,7 @@ If you run the DLS_GUI_control.py, a new window displayed above will show up. Th
 The section of the Current Settings shows the current values of the position, velocity, and acceleration. You can get the latest value by clicking the Update button. If you click it multiple times, you can see that the delay stage position slightly changes.
 
 ### 3.2 CHANGE SETTINGS
-The Change Settings section allows you to change the position, velocity, and acceleration. You can type values and click the button placed right to the entry box. Move-to-x button initiates the movement of the stage to the target position. In order to check whether the stage has finished moving, you can click the Update button in the Current Settings section. Change-v and Change-a buttons allow us to change values and update the Current Settings section. If you want to change all values and update the Current Settings, you can click Change-x,v,and-a-at-once button. 
+The Change Settings section allows you to change the position, velocity, and acceleration. You can type values and click the button placed right to the entry box. Move-to-x button initiates the movement of the stage to the target position. Change-v and Change-a buttons allow us to change values and update the Current Settings section. If you want to change all values and update the Current Settings, you can click Change-x,v,and-a-at-once button. 
 
 ### 3.3 DELAY SCAN
 This section allows you to do the automatic scan for several times. Once you specify the initial and final positions and number of steps, you can calculate scan step (s/step) and scan range (s) by clicking the Calculate-time-settings button.  
