@@ -29,7 +29,7 @@ This section allows you to do the automatic scan for several times. Once you spe
   
 Once you start scanning, you can see the progress of the scan.
 
-<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui_2.PNG" width="300px">
+<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui_2.PNG" width="200px">
 
 ## 4. Avoiding Expected Errors at the Beginning
 - Check whether you have [pythonnet](https://pypi.org/project/pythonnet/).
