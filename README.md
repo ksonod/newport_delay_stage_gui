@@ -34,7 +34,7 @@ Once you start scanning, you can see the progress of the scan.
 ## 4. Avoiding Expected Errors at the Beginning
 - Check whether you have [pythonnet](https://pypi.org/project/pythonnet/).
 - Check whether you are importing correct clr library.
-- Check the COM port. If you are not sure whether you can communicate with your delay stage, you can use the official software.
+- Check the COM port. If you are not sure whether your computer communicates with your delay stage, you can use the official software as a first step.
 - Put the DLS_GUI_control.py and myfunc.py in the same directory.
 
 ## 5. Useful References
