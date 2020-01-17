@@ -13,9 +13,9 @@ This repository contains simple python codes for controlling [Newport delay line
 ## DLS_GUI_control
 
 
-<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui.PNG" width="750px">
+<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui.PNG" width="500px">
 
-<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui2.PNG" width="750px">
+<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui2.PNG" width="500px">
 
 ## myfunc
 You can get the current position of your delay line stage.  
