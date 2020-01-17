@@ -7,8 +7,8 @@ This repository provides a GUI tool for controlling the [Newport delay line stag
 
 ## 2. Codes
 This tool consists of 2 files. 
-- DLS_GUI_control.py: This is mainly responsible for GUI.
-- myfunc.py: This code includes various functions for communicating with the delay line stage.
+- [DLS_GUI_control.py](https://github.com/ksonod/newport_delay_stage_gui/blob/master/DLS_GUI_control.py): This is mainly responsible for GUI.
+- [myfunc.py](https://github.com/ksonod/newport_delay_stage_gui/blob/master/myfunc.py): This code includes various functions for communicating with the delay line stage.
 
 ## 3. Control Window
 <img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui.PNG" width="500px">  
