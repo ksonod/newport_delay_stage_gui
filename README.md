@@ -10,11 +10,12 @@ This repository contains simple python codes for controlling [Newport delay line
 - Python3 (Anaconda)
 - [DL Series Optical Delay Line Linear Motor Linear Translation Stages](https://www.newport.com/f/delay-line-stages)
 
-## DLS_gui
-You can get the version of your delay line stage.  
-<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui.PNG.PNG" width="750px">
+## DLS_GUI_control
 
-<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui2.PNG.PNG" width="750px">
+
+<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui.PNG" width="750px">
+
+<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui2.PNG" width="750px">
 
 ## myfunc
 You can get the current position of your delay line stage.  
