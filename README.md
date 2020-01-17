@@ -1,4 +1,6 @@
 # newport_delay_stage_gui
+January 17, 2020.  
+
 ## 1. Description
 This repository provides a GUI tool for controlling the [Newport delay line stage](https://www.newport.com/f/delay-line-stages). In order to control the stage, .NET Framework is used. This GUI works under the following condisionts:
 - Windows 10
