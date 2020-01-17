@@ -1,14 +1,16 @@
 # newport_delay_stage_gui
-## Description
+## 1. Description
 This repository provides a GUI tool for controlling the [Newport delay line stage](https://www.newport.com/f/delay-line-stages). In order to control the stage, .NET Framework is used. This GUI works under the following condisionts:
 - Windows 10
 - Python3 (Anaconda)
 - [DL Series Optical Delay Line Linear Motor Linear Translation Stages](https://www.newport.com/f/delay-line-stages)
 
-## DLS_GUI_control
-This tool consists of 2 files: DLS_GUI_control.py and myfunc.py. 
+## 2. Codes
+This tool consists of 2 files. 
+- DLS_GUI_control.py: This is mainly responsible for GUI.
+- myfunc.py: This code includes various functions for communicating with the delay line stage.
 
-### Control Window
+## 3. Control Window
 <img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui.PNG" width="500px">  
   
 If you run the DLS_GUI_control.py, a new window displayed above will show up. The window consists of 3 sections:
@@ -16,7 +18,7 @@ If you run the DLS_GUI_control.py, a new window displayed above will show up. Th
 - CHANGE SETTINGS
 - DELAY SCAN
 
-#### CURRENT SETTINGS
+#### 3.1 CURRENT SETTINGS
 The section of the Current Settings shows the current values of the position, velocity, and acceleration. You can get the latest value by clicking the Update button. It is worth clicking several times when you move largely with very slow velocity.  
 
 #### CHANGE SETTINGS
@@ -29,13 +31,11 @@ Once you start scanning, you can see the progress of the scan.
 
 <img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui_2.PNG" width="300px">
 
-## myfunc
-You can get the current position of your delay line stage.  
-
 ## Avoiding Expected Errors at the Beginning
-- Please check whether you have [pythonnet](https://pypi.org/project/pythonnet/).
-- Please check whether you are importing correct clr library.
-- Please check the COM port.
+- Check whether you have [pythonnet](https://pypi.org/project/pythonnet/).
+- Check whether you are importing correct clr library.
+- Check the COM port. If you are not sure whether you can communicate with your delay stage, you can use the official software.
+- Put the DLS_GUI_control.py and myfunc.py in the same directory.
 
 ## Useful References
 - Official document: https://www.newport.com/mam/celum/celum_assets/resources/DL_Controller_-_Command_Interface_Manual.pdf?1
