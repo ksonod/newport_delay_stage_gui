@@ -39,4 +39,4 @@ Once you start scanning, you can see the progress of the scan.
 
 ## 5. Useful References
 - Official document: https://www.newport.com/mam/celum/celum_assets/resources/DL_Controller_-_Command_Interface_Manual.pdf?1
-- My another repository: 
+- My another repository: https://github.com/ksonod/newport_delay_stage_basic_python
